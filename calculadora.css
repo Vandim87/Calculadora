@@ -1,3 +1,13 @@
 body {
     background-color: black;
 }
+h1 { color: aliceblue;
+    text-align: center;
+}
+.Calculadora {
+    border: 1px solid rgb(134, 132, 132);
+    width: 70%;
+    height: 500px
+    
+
+}
