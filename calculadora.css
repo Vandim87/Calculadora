@@ -4,28 +4,31 @@ body {
 h1 { color: aliceblue;
     text-align: center;
 }
-.Calculadora {
+.contains {
     border: 1px solid rgb(134, 132, 132);
+    border-radius: 8px;
     width: 70%;
     height: 400px;
     margin: auto;
     margin-top: 50px;
     max-width: 400px;
-    
+    text-align: center;
 }
 .display{
     border: 1px solid rgb(216, 213, 213);
-    border-radius: 8px;
-    width: 85%;
+    width: 80%;
     height: 50px;
     text-align: right;
+    padding-right: 5px;
     font-size: 2em;
     color: rgb(104, 100, 100);
+    margin-bottom: 10px;
 }
 
 .btn {
     background: rgb(247, 245, 245);
     border-radius: 8px;
+    Font-weight: bolder;
     width: 20%;
     margin: auto;
     height: 10%;
@@ -34,4 +37,11 @@ h1 { color: aliceblue;
 }
 .btn:hover {
     background: rgb(179, 177, 177);
+}
+.btn-eq {
+    background: rgb(179, 177, 177);
+    color: rgb(134, 8, 35);
+}
+.btn-eq:hover {
+    background: rgb(247, 245, 245);
 }
