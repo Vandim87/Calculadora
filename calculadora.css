@@ -7,7 +7,15 @@ h1 { color: aliceblue;
 .Calculadora {
     border: 1px solid rgb(134, 132, 132);
     width: 70%;
-    height: 500px
-    
-
+    height: 500px;
+    position:auto;
+    margin: auto;
+    margin-top: 50px;
+}
+.display{
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+    height: 50px;
 }
